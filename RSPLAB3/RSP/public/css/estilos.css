@@ -1,0 +1,130 @@
+header
+{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    align-items: center;
+}
+
+.logo
+{
+    height: 100px;
+}
+
+form
+{
+    align-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+input[type="radio"]{
+    width: auto;
+    margin: 10px;
+}
+
+#divBotones 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#divBotones input
+{
+    justify-content: space-between;
+    border: 1px solid black;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-radius:3px;
+    cursor: pointer;
+}
+
+#btnAlta
+{
+    background-color: limegreen;
+
+}
+
+#btnBaja
+{
+    background-color: orangered;
+}
+
+
+#btnModificar
+{
+    background-color: limegreen; 
+}
+
+#btnCancelar
+{
+    background-color: blue;
+}
+
+
+
+
+#divTabla
+{
+    display: flex;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: row;
+    cursor: pointer;
+}
+
+th, tr, td
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: row;
+}
+
+
+#frmDiv, #frmTd, #frmTr
+{
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    align-items: center;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav
+{
+    display: flex;
+}
+
+div a 
+{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer p 
+{
+    color: white;
+    padding: 10px 20px;
+}
